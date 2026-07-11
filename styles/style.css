@@ -87,12 +87,15 @@
     color: #1D4ED8;
 }
 
-/* Banner */
+
 .banner {
-    background-image: url("/assets/banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("/assets/banner.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 136px;
     padding-bottom: 80px;
     width: 100%;
@@ -102,14 +105,13 @@
 
 
 .banner-wrap {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     color: #fff;
-
+    height: 100%;
 }
 
 .banner-contents h1 {
@@ -118,6 +120,7 @@
     color: #fff;
     line-height: 80px;
     margin-bottom: 20px;
+
 }
 
 .banner-contents p {
@@ -190,9 +193,11 @@
 .Pricing-wrapper {
     padding-bottom: 80px;
 }
-.pricing-heading{
+
+.pricing-heading {
     margin-bottom: 12px;
 }
+
 .heading-des {
     text-align: center;
     font-size: 1rem;
@@ -255,30 +260,40 @@
     flex-direction: column;
     gap: 10px;
 }
+
 .pricing-card ul.service-price li::marker {
-  color: #2563EB; /* Blue bullets */
+    color: #2563EB;
+    /* Blue bullets */
 }
-.pro-plan{
+
+.pro-plan {
     background-color: #0D1B2A;
 }
-.pro-plan h5{
+
+.pro-plan h5 {
     color: #93C5FD;
 }
-.pro-plan h3{
+
+.pro-plan h3 {
     color: #fff;
 }
-.pro-plan p{
+
+.pro-plan p {
     color: #ffffff6e;
 }
-.pro-plan ul li{
+
+.pro-plan ul li {
     color: #ffffffc4;
 }
-.team-plan{
+
+.team-plan {
     background-color: #F8F9FB;
 }
-.divider-pro{
+
+.divider-pro {
     border: 1px solid #ffffff2b;
 }
+
 .pricing-card .pricing-btn {
     background-color: #2563EB;
     color: #fff;
@@ -291,46 +306,55 @@
     width: 100%;
     margin-top: 20px;
 }
+
 .pricing-card .standard-btn {
-    background-color:transparent;
+    background-color: transparent;
     color: #2563EB;
     border: 1px solid #2563EB;
 }
+
 .pricing-card .team-btn {
-    background-color:transparent;
+    background-color: transparent;
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
 }
-.pro-plan{
+
+.pro-plan {
     box-shadow: 0 5px 5px rgba(15, 23, 42, 0.05);
 }
 
 /* Start Footer styles */
-#footer{
+#footer {
     padding: 56px 0;
     background-color: #0D1B2A;
 }
-.footer-top{
+
+.footer-top {
     justify-content: space-between;
     align-items: center;
 }
-.social-icons .fa-brands{
+
+.social-icons .fa-brands {
     color: #ffffff72;
 }
-.footer-divider{
+
+.footer-divider {
     margin: 30px 0;
     border: 1px solid #ffffff55;
 }
-.footer-bottom{
+
+.footer-bottom {
     justify-content: space-between;
     align-items: center;
 }
-.copyright p{
+
+.copyright p {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff72;
 }
-.quick-links{
+
+.quick-links {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff72;
