@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,31 +6,36 @@
 }
 
 /* Shared style */
-.container{
+.container {
     max-width: 1330px;
     margin: 0 auto;
 }
-.primary-color{
+
+.primary-color {
     color: #1D4ED8;
 }
-.color-dard{
+
+.color-dard {
     color: #000102;
 }
-.color-light{
+
+.color-light {
     color: #fff;
 }
-.color-gray{
+
+.color-gray {
     color: #575757;
 }
-.color-dark-gray{
+
+.color-dark-gray {
     color: #333333;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
-.primary-btn{
+.primary-btn {
     background-color: #1D4ED8;
     color: #fff;
     padding: 12px 41.5px;
@@ -40,11 +45,13 @@
     font-weight: bold;
     cursor: pointer;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background-color: #1d4fd8db;
 
 }
-.section-heading{
+
+.section-heading {
     font-size: 3.5rem;
     font-weight: 700;
     color: #000102;
@@ -54,15 +61,17 @@
 
 /* navbar */
 
-.navbar{
+.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 
 }
-.navbar .brand-log img{
+
+.navbar .brand-log img {
     width: 100%;
 }
+
 .navbar .menu-bar ul {
     list-style: none;
     gap: 24px;
@@ -73,11 +82,13 @@
     color: #575757;
     font-weight: 400;
 }
+
 .navbar .menu-bar ul li a:hover {
     color: #1D4ED8;
 }
+
 /* Banner */
-.banner{
+.banner {
     background-image: url("/assets/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -85,12 +96,12 @@
     padding-top: 136px;
     padding-bottom: 80px;
     width: 100%;
-    height: 60vh;
+    height: 100vh;
 
 }
 
 
-.banner-wrap{
+.banner-wrap {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -98,16 +109,18 @@
     align-items: center;
     text-align: center;
     color: #fff;
-   
+
 }
-.banner-contents h1{
+
+.banner-contents h1 {
     font-size: 5rem;
     font-weight: 700;
     color: #fff;
     line-height: 80px;
     margin-bottom: 20px;
 }
-.banner-contents p{
+
+.banner-contents p {
     font-size: 1.375rem;
     font-weight: 400;
     color: #fff;
@@ -116,101 +129,176 @@
 }
 
 /* Start speakers section style */
-.speakers-wrapper{
+.speakers-wrapper {
     padding-top: 80px;
     padding-bottom: 136px;
 }
-.speakers-heading{
+
+.speakers-heading {
     margin-bottom: 56px;
 }
-.speakers-grid{
+
+.speakers-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
 }
 
-.speaker-card{
+.speaker-card {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     background-color: #fff;
 }
-.speaker-card img{
+
+.speaker-card img {
     width: 100%;
     object-fit: cover;
-    border-radius: 12px 12px 0 0 ;
+    border-radius: 12px 12px 0 0;
 }
-.speaker-card .sp-content{
+
+.speaker-card .sp-content {
     padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.speaker-card .sp-content h5{
+
+.speaker-card .sp-content h5 {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: 0.3px;
     color: #2563EB;
 }
-.speaker-card .sp-content h3{
+
+.speaker-card .sp-content h3 {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 27.5px;
     color: #0D1B2A;
 }
-.speaker-card .sp-content h3{
+
+.speaker-card .sp-content p {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 21px;
     color: #575757;
 }
+
 /* Start Pricing style */
 
-/* .Pricing-wrapper{
-    padding-bottom: 136px;
+.Pricing-wrapper {
+    padding-bottom: 80px;
 }
-.speakers-heading{
-    margin-bottom: 56px;
+.pricing-heading{
+    margin-bottom: 12px;
 }
-.speakers-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+.heading-des {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
 }
 
-.speaker-card{
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-top: 48px;
+}
+
+.pricing-card {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     background-color: #fff;
+    padding: 32px;
+
 }
-.speaker-card img{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 12px 12px 0 0 ;
-}
-.speaker-card .sp-content{
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.speaker-card .sp-content h5{
-    font-size: 0.75rem;
+
+
+.pricing-card h5 {
+    font-size: 0.813rem;
+    text-transform: uppercase;
     font-weight: 600;
-    line-height: 18px;
-    letter-spacing: 0.3px;
-    color: #2563EB;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    color: #888888;
 }
-.speaker-card .sp-content h3{
-    font-size: 1.25rem;
+
+.pricing-card h3 {
+    font-size: 2.75rem;
     font-weight: 700;
-    line-height: 27.5px;
+    line-height: 44px;
     color: #0D1B2A;
+    padding: 8px 0;
 }
-.speaker-card .sp-content h3{
+
+.pricing-card p {
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    color: #888888;
+}
+
+.pricing-card hr {
+    color: #E5E7EB;
+    margin: 20px 0;
+}
+
+.pricing-card ul.service-price {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 21px;
-    color: #575757;
-} */
-/* Start Pricing style */
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pricing-card ul.service-price li::marker {
+  color: #2563EB; /* Blue bullets */
+}
+.pro-plan{
+    background-color: #0D1B2A;
+}
+.pro-plan h5{
+    color: #93C5FD;
+}
+.pro-plan h3{
+    color: #fff;
+}
+.pro-plan p{
+    color: #ffffff6e;
+}
+.pro-plan ul li{
+    color: #ffffffc4;
+}
+.team-plan{
+    background-color: #F8F9FB;
+}
+
+.pricing-card .pricing-btn {
+    background-color: #2563EB;
+    color: #fff;
+    padding: 11px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+.pricing-card .standard-btn {
+    background-color:transparent;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.pricing-card .team-btn {
+    background-color:transparent;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.pro-plan{
+    box-shadow: 0 5px 5px rgba(15, 23, 42, 0.05);
+}
